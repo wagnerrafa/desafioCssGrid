@@ -1,0 +1,29 @@
+
+body{
+    display: grid;
+    width: 800px;
+    height: 564px;
+    grid-template-areas: "nav nav nav nav nav nav"
+                        "section section section section section section"
+                        "footer footer footer footer footer footer ";
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 7vw 10vw 20vw 25vw 8vw 8vw;
+    margin: 0;
+    padding: 0;
+  
+}
+nav {grid-area: nav;
+    background-color: black;
+    display: flex;
+ }
+section {
+    grid-area: section;
+    background-color: red;
+    display: flex;
+} 
+footer{ grid-area: footer;
+        background-color: blue;
+        display: flex;
+    }
+
+ 
