@@ -1,119 +1,158 @@
-/* 
-body{
+body {
+    width: 35.25rem;
+    height: 43.75rem;
     display: grid;
-    width: 800px;
-    height: 564px;
-    grid-template-areas: "nav nav nav nav nav nav"
-                        "section section section section section aside "
-                        "footer footer footer footer footer aside";
-    grid-template-rows: 33% 33% 33%;
-    grid-template-columns: 7vw 10vw 20vw 25vw 8vw 8vw;
-    margin: 0;
-    padding: 0;
-    grid-gap: 10px;
-  
-}
-nav {
-    grid-area: nav;
-    background-color: black;
- }
-
- section {
-    grid-area: section;
-    background-color: red;
-} 
-footer{ 
-    grid-area: footer;
-    background-color: blue;
-    text-align: center;
-    }
-.aside{
-    grid-area: aside;
-    background-color: yellow;
-   
+    grid-template-rows: 33.3% 33.3% 19.6% 13.6%;
 }
 
-  */
-  body{
-    width: 800px;
-    height: 564px;
+.display1 {
     display: grid;
-    grid-template-rows: 33.3% 33.3% 33.3%;
-  }
-  .page {
-    
-    display: grid;
-    font-family: Arial, sans-serif;
     grid-gap: 20px;
     padding-bottom: 10px;
-    grid-template-areas:
-        'um dois tres quatro cinco seis'
-        /* 'um sete oito nove dez onze'
-        'um footer footer footer footer footer'
-        'um batata batata batata batata batata'; */;
+    margin-top: -10px;
+    grid-template-areas: 'um dois tres quatro cinco seis';
     background-color: black;
     grid-template-columns: 3.5rem 7rem 14rem 16rem 6rem 6rem;
-
 }
-.page1 {
-    
+
+.um {
+    grid-area: um;
+    background-color: white;
+}
+
+.dois {
+    grid-area: dois;
+    background-color: yellow;
+}
+
+.tres {
+    grid-area: tres;
+    background-color: blue;
+}
+
+.quatro {
+    grid-area: quatro;
+    background-color: red;
+}
+
+.cinco {
+    grid-area: cinco;
+    background-color: yellow;
+}
+
+.seis {
+    grid-area: seis;
+    background-color: white;
+}
+
+.display2 {
     display: grid;
-    font-family: Arial, sans-serif;
     grid-gap: 20px;
-   
-    grid-template-areas:'um sete oito nove dez onze doze'
-        
-        /* 'um sete oito nove dez onze'
-        'um footer footer footer footer footer'
-        'um batata batata batata batata batata'; */;
+    margin-top: -10px;
+    grid-template-areas: 'um sete oito nove dez onze doze';
     background-color: black;
     grid-template-columns: 3.5rem 7rem 14rem 6rem 8.75rem 6rem 6rem;
     padding-top: 10px;
-    
-    /* grid-template-rows: 33.3%; */
 }
 
-.um { grid-area: um;
-background-color: white;
+.sete {
+    grid-area: sete;
+    background-color: white;
 }
 
-.footer { grid-area: footer; }
-.batata {
-    grid-area: batata;
+.oito {
+    grid-area: oito;
+    background-color: white;
+}
+
+.nove {
+    grid-area: nove;
+    background-color: white;
+}
+
+.dez {
+    grid-area: dez;
     background-color: blue;
 }
-.dois {
-    grid-area: dois;
-    background-color: yellow;    
-}
-.tres {grid-area: tres;
-    background-color: blue;
-}
-.quatro {grid-area: quatro;
+
+.onze {
+    grid-area: onze;
     background-color: red;
 }
-.cinco {grid-area: cinco;
-    background-color: yellow;
-}
-.seis {grid-area: seis;
+
+.doze {
+    grid-area: doze;
+    margin-bottom: -10px;
     background-color: white;
-}
-.sete { grid-area: sete;
-    background-color: white;
-}
-.oito {grid-area: oito;
-    background-color: white;
-}
-.nove { grid-area: nove;
-    background-color: white;
-}
-.dez { grid-area: dez;
-    background-color:blue;
-}
-.onze { grid-area: onze;
-    background-color:blue;
-}
-.doze { grid-area: doze;
-    background-color:blue;
 }
 
+.display3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 'um treze quatorze quinze dezesseis dezessete';
+    background-color: black;
+    grid-template-columns: 3.5rem 7rem 21.25rem 8.75rem 6rem 6rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.treze {
+    grid-area: treze;
+    background-color: white;
+}
+
+.quatorze {
+    grid-area: quatorze;
+    background-color: red;
+}
+
+.quinze {
+    grid-area: quinze;
+    background-color: white;
+}
+
+.dezesseis {
+    grid-area: dezesseis;
+    background-color: yellow;
+}
+
+.dezessete {
+    grid-area: dezessete;
+    margin-top: -10px;
+    background-color: white;
+}
+
+.display4 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 'margem dezoito dezenove vinte vinteum';
+    background-color: black;
+    grid-template-columns: 3.5rem 7rem 21.25rem 16rem 6rem;
+    padding-top: 10px;
+}
+
+.dezoito {
+    grid-area: dezoito;
+    background-color: blue;
+}
+
+.dezenove {
+    grid-area: dezenove;
+    background-color: yellow;
+}
+
+.vinte {
+    grid-area: vinte;
+    background-color: white;
+}
+
+.vinteum {
+    grid-area: vinteum;
+    background-color: white;
+}
+
+.margem {
+    grid-area: margem;
+    margin-top: -20px;
+    background-color: white;
+}
